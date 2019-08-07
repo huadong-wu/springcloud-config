@@ -7,10 +7,10 @@ content: dev content  123
 spring:
   profiles: dev #测试环境
   application:
-    name: provider-dev
+    name: hello-service
 ---
 content: test content
 spring:
   profiles: test #测试环境
   application:
-    name: provider-test
+    name: hello-service
